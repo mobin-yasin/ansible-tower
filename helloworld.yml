@@ -1,8 +1,18 @@
 ---
-- name: Mobin World!
+- name: First PlayBook - Mobin World!
   hosts: all
  
   tasks:
  
   - name: Hello World!
     shell: echo "Test from MOBIN YASIN"
+    
+# This is a simple playbook with two plays
+- name: Second playBook 
+  hosts: web.example.com 
+  
+  tasks:
+  - name: first task 
+  yum:
+    name: httpd 
+    status: present
