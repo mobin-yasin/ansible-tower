@@ -6,10 +6,11 @@
  
   - name: Hello World!
     shell: echo "Test from MOBIN YASIN"
-    
+
+---
 # This is a simple playbook with two plays
 - name: Second playBook 
-  hosts: web.example.com 
+  hosts: localhost 
   
   tasks:
   - name: first task 
