@@ -1,6 +1,5 @@
 ---
 - name: Setting up LAMP Website
-  user: vagrant
   hosts: localhost
   become: yes
   tasks:
