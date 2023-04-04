@@ -5,8 +5,7 @@
   tasks:
     - name: latest version of all required packages installed
       yum:
-        name:
-          - firewalld
+        name:         
           - httpd
           - mariadb-server
           - php
